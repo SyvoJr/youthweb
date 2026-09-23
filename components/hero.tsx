@@ -16,7 +16,7 @@ export function Hero() {
           Annual Youth Retreat
         </span>
         <h1 className="text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl">
-          A Weekend to Encounter, Grow, and Belong
+          AWAKEN. ENCOUNTER. BECOME.
         </h1>
         <p className="mt-5 max-w-xl text-pretty text-lg text-white/85">
           Join us for the Annual Youth Retreat 2027 — three days of worship, teaching, fellowship, and spiritual
@@ -36,11 +36,12 @@ export function Hero() {
         </div>
 
         <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-          <Button render={<a href="#tickets" />} size="lg">
+          <Button render={<a href="#tickets" />} nativeButton={false} size="lg">
             Get Your Ticket
           </Button>
           <Button
             render={<a href="#about" />}
+            nativeButton={false}
             size="lg"
             variant="outline"
             className="border-white/40 bg-transparent text-white hover:bg-white/10 hover:text-white"

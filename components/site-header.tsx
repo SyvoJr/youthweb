@@ -21,7 +21,7 @@ export function SiteHeader() {
             Details
           </a>
         </nav>
-        <Button render={<a href="#tickets" />} size="sm">
+        <Button render={<a href="#tickets" />} nativeButton={false} size="sm">
           Get Tickets
         </Button>
       </div>
