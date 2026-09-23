@@ -18,6 +18,9 @@ export function Hero() {
         <h1 className="text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl">
           AWAKEN. ENCOUNTER. BECOME.
         </h1>
+        <p className="mt-4 text-pretty text-xl font-semibold text-primary sm:text-2xl">
+          {"Don't Miss God's Blessings"}
+        </p>
         <p className="mt-5 max-w-xl text-pretty text-lg text-white/85">
           Join us for the Annual Youth Retreat 2027 — three days of worship, teaching, fellowship, and spiritual
           encounter for youth and young people.
